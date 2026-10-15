@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #e5e5e5;
+}
+.content {
+    display: flex;
+    gap: 32px;
+    width: min(2000px, 95%);
+    margin: 1rem auto;
+    img {
+        width: 100%;
+        opacity: .75;
+        transition: opacity .3s ease-in-out;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
