@@ -357,7 +357,7 @@ body {
                             font-size: 24px;
                             font-weight: 700;
                             color: #1F1F26;
-                            margin-bottom: 8px;
+                            line-height: 0.5;
                         }
                         .subtitle {
                             font-family: Inter, sans-serif;
@@ -411,7 +411,7 @@ body {
                     text-wrap: balance;
                     margin-bottom: 55px;
                 }
-                .footer {
+                .footer_ {
                     display: flex;
                     align-items: flex-end;
                     justify-content: space-between;
@@ -471,6 +471,77 @@ body {
             content: url("../image/s_0.png");
             position: absolute;
             top: 66px;
+        }
+    }
+
+    .newsletter_block {
+        padding: 29px 0;
+        .card {
+            width: 976px;
+            margin: 0 auto;
+            text-align: center;
+            background: url("../image/nl.png") center center no-repeat;
+            background-size: cover;
+            border-radius: 20px;
+            padding: 51px 0 65px;
+
+            .title {
+                color: #fff;
+                margin-bottom: 10px;
+            }
+            .subtitle {
+                color: rgb(255 255 255 / 0.83);
+                margin-bottom: 28px;
+            }
+
+            .btn {
+                gap: 30px;
+            }
+        }
+    }
+
+    .footer {
+        padding: 75px 0 30px;
+        width: 976px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            font-family: "Lekton", sans-serif;
+            font-weight: 700;
+            font-size: 34px;
+            color: #1a1a1a;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+
+        .links {
+            display: flex;
+            gap: 29px;
+            align-items: center;
+            a {
+                cursor: pointer;
+                i {
+                    cursor: inherit;
+                }
+            }
+        }
+
+        .cop {
+            width: 100%;
+            padding-top: 30px;
+            border-top: 1px solid #E3E3EA;
+            text-align: center;
+            font-weight: 400;
+            font-size: 11px;
+            color: #959595;
+            margin-top: 53px;
         }
     }
 }
